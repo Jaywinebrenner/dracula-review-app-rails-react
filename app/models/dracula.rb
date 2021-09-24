@@ -1,0 +1,2 @@
+class Dracula < ApplicationRecord
+end
