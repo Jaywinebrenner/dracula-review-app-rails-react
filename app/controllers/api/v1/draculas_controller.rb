@@ -1,3 +1,5 @@
+
+
 class Api::V1::DraculasController < ApplicationController
   before_action :set_dracula, only: [:show, :update, :destroy]
 
@@ -24,7 +26,8 @@ class Api::V1::DraculasController < ApplicationController
     @dracula = Dracula.new(dracula_params)
 
     if @dracula.save
-      render json: @dracula, status: :created, location: @dracula
+      # render json: @dracula, status: :created, location: @dracula
+      render json: @dracula, status: :created, location: api_v1_reviews_path(@review)
     else
       render json: @dracula.errors, status: :unprocessable_entity
     end
