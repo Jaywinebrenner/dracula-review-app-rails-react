@@ -41,52 +41,52 @@ draculas = Dracula.create([
         image_url: "https://i.ebayimg.com/images/g/UlQAAOSwFt1gIkRz/s-l300.jpg"
     },
     ])
-    reviews = Review.create([
-        {
-            title: 'Pretty cool dracula.',
-            description: 'Cool, but also scary. My little brother hates it tho.',
-            score: 3,
-            dracula_id: 1
-        },
-        {
-            title: 'Awesome dracula.',
-            description: 'This dracula rocks man.',
-            score: 5,
-            dracula_id: 2
-        },
-        {
-            title: 'Dumb dracula',
-            description: 'Not cool. Doesnt even suck blood',
-            score: 1,
-            dracula_id: 3
-        },
-        {
-            title: 'Weird Dracula',
-            description: 'Hes just ugly and weird.',
-            score: 2,
-            dracula_id: 3
-        },
-        {
-            title: 'This dracula has a foul mouth but he is scary',
-            description: 'He said bad words. But I was scared. So I guess he is a pretty average Dracula',
-            score: 3,
-            dracula_id: 4
+    # reviews = Review.create([
+    #     {
+    #         title: 'Pretty cool dracula.',
+    #         description: 'Cool, but also scary. My little brother hates it tho.',
+    #         score: 3,
+    #         dracula_id: 1
+    #     },
+    #     {
+    #         title: 'Awesome dracula.',
+    #         description: 'This dracula rocks man.',
+    #         score: 5,
+    #         dracula_id: 2
+    #     },
+    #     {
+    #         title: 'Dumb dracula',
+    #         description: 'Not cool. Doesnt even suck blood',
+    #         score: 1,
+    #         dracula_id: 3
+    #     },
+    #     {
+    #         title: 'Weird Dracula',
+    #         description: 'Hes just ugly and weird.',
+    #         score: 2,
+    #         dracula_id: 3
+    #     },
+    #     {
+    #         title: 'This dracula has a foul mouth but he is scary',
+    #         description: 'He said bad words. But I was scared. So I guess he is a pretty average Dracula',
+    #         score: 3,
+    #         dracula_id: 4
             
-        },
-        {
-            title: 'This dracula says bad words!',
-            description: 'Which I think is pretty cool',
-            score: 5,
-            dracula_id: 4
-        },
-        {
-            title: 'Dumb',
-            description: 'Not cool at all. This dracula sucks.',
-            score: 1,
-            dracula_id: 4
-        },
+    #     },
+    #     {
+    #         title: 'This dracula says bad words!',
+    #         description: 'Which I think is pretty cool',
+    #         score: 5,
+    #         dracula_id: 4
+    #     },
+    #     {
+    #         title: 'Dumb',
+    #         description: 'Not cool at all. This dracula sucks.',
+    #         score: 1,
+    #         dracula_id: 4
+    #     },
 
-    ])
+    # ])
 
 
  

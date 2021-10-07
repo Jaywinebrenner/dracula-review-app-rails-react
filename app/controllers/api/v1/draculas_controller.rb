@@ -36,6 +36,7 @@ class Api::V1::DraculasController < ApplicationController
   # PATCH/PUT /draculas/1
   def update
     if @dracula.update(dracula_params)
+
       render json: @dracula
     else
       render json: @dracula.errors, status: :unprocessable_entity
@@ -55,6 +56,6 @@ class Api::V1::DraculasController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def dracula_params
-      params.require(:dracula).permit(:id, :name, :image_url, :_limit)
+      params.require(:dracula).permit(:id, :name, :image_url, :_limit, :scores)
     end
 end
