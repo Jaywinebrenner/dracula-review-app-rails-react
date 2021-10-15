@@ -76,22 +76,10 @@ GEM
     erubi (1.10.0)
     globalid (0.5.2)
       activesupport (>= 5.0)
-    google-protobuf (3.18.1)
     google-protobuf (3.18.1-universal-darwin)
-    google-protobuf (3.18.1-x64-mingw32)
-    google-protobuf (3.18.1-x86_64-linux)
     googleapis-common-protos-types (1.2.0)
       google-protobuf (~> 3.14)
-    grpc (1.41.0)
-      google-protobuf (~> 3.17)
-      googleapis-common-protos-types (~> 1.0)
     grpc (1.41.0-universal-darwin)
-      google-protobuf (~> 3.17)
-      googleapis-common-protos-types (~> 1.0)
-    grpc (1.41.0-x64-mingw32)
-      google-protobuf (~> 3.17)
-      googleapis-common-protos-types (~> 1.0)
-    grpc (1.41.0-x86_64-linux)
       google-protobuf (~> 3.17)
       googleapis-common-protos-types (~> 1.0)
     i18n (1.8.10)
@@ -105,7 +93,6 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.6.1)
     minitest (5.14.4)
     msgpack (1.4.2)
     newrelic-infinite_tracing (8.0.0)
@@ -113,14 +100,7 @@ GEM
       newrelic_rpm (= 8.0.0)
     newrelic_rpm (8.0.0)
     nio4r (2.5.8)
-    nokogiri (1.12.5)
-      mini_portile2 (~> 2.6.1)
-      racc (~> 1.4)
-    nokogiri (1.12.5-x64-mingw32)
-      racc (~> 1.4)
     nokogiri (1.12.5-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
     pg (1.2.3)
     puma (5.5.2)
@@ -169,18 +149,13 @@ GEM
     thor (1.1.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2021.3)
-      tzinfo (>= 1.0.0)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     zeitwerk (2.4.2)
 
 PLATFORMS
-  ruby
-  x64-mingw32
   x86_64-darwin-20
-  x86_64-linux
 
 DEPENDENCIES
   active_model_serializers
