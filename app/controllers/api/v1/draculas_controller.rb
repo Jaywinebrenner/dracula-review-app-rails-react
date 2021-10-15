@@ -24,7 +24,6 @@ class Api::V1::DraculasController < ApplicationController
   # POST /draculas
   def create
     @dracula = Dracula.new(dracula_params)
-
     if @dracula.save
       # render json: @dracula, status: :created, location: @dracula
       render json: @dracula, status: :created, location: api_v1_reviews_path(@review)
@@ -48,6 +47,8 @@ class Api::V1::DraculasController < ApplicationController
     @dracula.destroy
   end
 
+  
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_dracula
@@ -56,6 +57,6 @@ class Api::V1::DraculasController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def dracula_params
-      params.require(:dracula).permit(:id, :name, :image_url, :_limit, :scores)
+      params.require(:dracula).permit(:id, :name, :image_url, :_limit, :scores, :dracula_image)
     end
 end
